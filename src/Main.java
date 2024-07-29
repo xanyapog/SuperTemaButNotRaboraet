@@ -3,11 +3,13 @@ import java.util.Arrays;
 
 
 
+
 public class Main {
 
     public static void main (String[]args) {
 
         printCalendarOnYear(LocalDate.now().getYear(), LocalDate.now());
+        System.out.println();
     }
 
 
